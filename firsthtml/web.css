@@ -1,0 +1,102 @@
+body{
+	background-color: tomato;
+}
+
+#name{
+	font-size: 5vw; 
+	/*align-items:  center;*/ 
+	padding: 30px;
+	color: lightyellow; 
+	border: 1px solid lightyellow; 
+	font-family:arial;
+	text-align: center;
+	margin-top:100px;
+	/*
+	position: absolute;
+	left: 500px;
+	top: 100px;
+	*/
+	text-decoration: none;
+}
+
+
+#titlebar{
+	font-size: 2vw;
+	padding: 20px;
+	color: white;
+	font-family: helvetica;
+	position: absolute;
+	top:20px;
+	right:10px;
+	
+	
+	
+}
+
+
+
+    #square {
+      width: 80vw;
+      height: 7vw;
+      background: white;
+      position: fixed;
+      left: 50%;
+      
+    	transform: translate(-50%, 0);
+      
+    }
+
+
+.btn{
+
+	background-color: #333333;
+  color: white;
+  padding: 10px;
+  font-size: 2vw;
+  font-family: helvetica;
+  border: none;
+
+
+}
+
+
+.dropdown {
+	position: relative;
+  display: inline-block;
+
+  
+  	
+
+}
+
+.dropitems{
+	display: none;
+  position: fixed;
+  padding: 10px;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align:center;
+  text-decoration: none;
+}
+
+.lnk{
+	color:hotpink;
+	text-decoration: none;
+}
+
+a:link {
+	color:hotpink;
+}
+
+.dropdown:hover .dropitems{
+	display: block;
+}
+
+.dropdown:hover .dropdown{
+	background-color: tomato;
+}
+.dropitems a:hover {background-color: #ddd;}
+
+
