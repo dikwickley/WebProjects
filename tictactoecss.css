@@ -1,0 +1,29 @@
+
+body{
+	background: lightblue;
+}
+
+button {
+	color: white;
+	font-size:2vw;
+	font-family: helvetica;
+	padding: 2vw;
+	margin: 1vw;
+	height: 5vw;
+	width: 5vw;
+	text-align: center;
+	background-color: tomato;
+	box-shadow: none;
+
+	
+}
+
+#buttons {
+	 position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+   }
+
+
