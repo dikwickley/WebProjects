@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		GDP 
+	</title>
+
+	<script type="text/javascript" src = "data.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	<script type="text/javascript" src="charting.js"></script>
+
+
+</head>
+
+<style type="text/css">
+	
+	div {
+		float: left;
+		margin: 5px;
+	}
+
+	.main{
+
+		margin-top: 50px; 
+
+	}
+
+	.chart{
+		position: relative;
+		margin: 8px;  
+	}
+
+	#bar{
+
+		position: absolute;
+		height: 70px;
+		top: 0px;
+		right: 0px;
+		width: 110%;
+		background-color: black;
+	}
+
+
+</style>
+
+<body>
+
+	<header>
+
+	</header>
+
+
+		
+
+
+
+	<div class="main" align="center" style="background-color: transparent; height: 100%">
+
+
+		<div class="chart" style="width: 32%;" align="left">
+			<canvas id="barChart_graph" width="400" height="200" style="border:1px solid #000000;"></canvas>
+		</div>
+
+
+		<div class="chart" style="width: 32%;" align="top">
+			<canvas id="pieChart_graph" width="400" height="200" style="border:1px solid #000000;"></canvas>
+		</div>
+
+		<div class="chart" style="width: 32%;" align="right">
+			<canvas id="radarChart_graph" width="400" height="200" style="border:1px solid #000000;"></canvas>
+		</div>
+
+			<canvas id="lineChart_graph" width="1211" height="300" style="border:1px solid #000000;"></canvas>
+
+		
+	</div>
+
+</body>
+</html>
